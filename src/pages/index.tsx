@@ -11,8 +11,8 @@ export default function Home() {
         <title>Abhinav Salgania Portfolio</title>
       </Head>
 
-      {/*Header*/}
       <Header />
+      
       {/*Hero*/}
 
       {/*About*/}
