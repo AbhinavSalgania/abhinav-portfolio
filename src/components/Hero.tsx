@@ -21,7 +21,6 @@ export default function Hero({}: Props) {
     
   return (
   <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
-    <BackgroundCircles />
     <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src='https://github.com/abhinavsalgania.png'
@@ -31,15 +30,12 @@ export default function Hero({}: Props) {
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]' >Software Developer</h2>
         <h1 className='text-2xl lg:text-4xl font-semibold px-10'>
             <span> {text} </span>
-            <Cursor cursorColor='#F7AB0A' /> 
+            <Cursor cursorColor='cyan' /> 
         </h1>
 
         <div className='pt-5'>
             <Link href='#about'>
             <button className='hereButton'>About</button>
-            </Link>
-            <Link href='#experience'>
-            <button className='hereButton'>Experience</button>
             </Link>
             <Link href='#skills'>
             <button className='hereButton'>Skills</button>
