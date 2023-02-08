@@ -43,8 +43,11 @@ export default function About({}: Props) {
             &nbsp;background 
             </h4>
             <p className='text-sm md:text-lg lg:text-lg text-justify'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius perferendis quia enim officiis totam, magnam odit dolores. Magni impedit perferendis eaque corporis. Voluptatem reiciendis modi voluptatibus blanditiis dolor nobis esse?
-            Ab tenetur repudiandae maxime ut placeat nisi dicta similique consequatur id et repellendus debitis ipsam sed distinctio voluptatum, alias inventore delectus necessitatibus ratione veniam earum. Dignissimos voluptatem quis itaque odio!
+            Hi, I am a Computer Science undergraduate student at Memorial University of Newfoundland.
+            I am competitive and I like to challenge myself to keep improving. Through school and personal projects,
+            I have gained experience in developing responsive web applications and analysing large amounts of data.
+            I am also passionate about health and fitness and am very proud of my hard work and consistency in the gym.
+            I am currently in a co-op program and I am looking for an internship beginning in May 2023.
             </p>
         </div>
 

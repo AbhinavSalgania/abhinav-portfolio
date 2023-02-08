@@ -2,18 +2,17 @@ import React from 'react'
 import {Cursor, useTypewriter} from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import Link from 'next/link'
-import abhinav from '../assets/abhiselfie.jpg'
+import abhinav from '../assets/abhicoat.jpg'
 
 type Props = {}
 
 export default function Hero({}: Props) {
     const [text, count] = useTypewriter({
         words: [
-            'Hi, My name is Abhinav Salgania', 
-            'I am a 3rd year undergraduate student', 
-            'I love coffee',
-            'I love gym',
-            'I love coding',
+            'Hi, I am Abhinav Salgania', 
+            'I am resilient, hardworking and a quick learner', 
+            'I drink coffee and code ',
+            'I eat Butter Chicken and go to the gym',
         ],
         loop: true,
         delaySpeed: 2000,
