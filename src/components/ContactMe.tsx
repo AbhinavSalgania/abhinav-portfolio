@@ -53,7 +53,7 @@ function ContactMe({}: Props) {
                 <div className="flex items-center space-x-5 justify-center">
                     <MapPinIcon className="text-[cyan] h-7 w-7 animate-pulse"/>
                     <p className="text-white/90 text-lg md:text-2xl lg:text-2xl">
-                        98 Larkhall St, St. Johns, NL
+                        St. Johns, NL
                     </p>
                 </div>
             </div>
