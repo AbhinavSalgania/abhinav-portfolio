@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import abhinav from '../assets/abhinav.jpg'
 
 type Props = {}
 
@@ -30,7 +31,7 @@ export default function About({}: Props) {
         viewport={{
             once: true,
         }}
-        src='https://www.cs.mun.ca/~csclub/assets/elections/fall-2021/candidates/abhinav.jpg'
+        src = {abhinav.src}
         alt='Abhinav'
         className=" -mb-24 md:mb-0 flex-shrink-0 w-52 h-52 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-96 xl:h-3/5"
         />
