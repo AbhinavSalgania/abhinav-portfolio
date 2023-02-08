@@ -40,7 +40,7 @@ export default function About({}: Props) {
             <h4 className='text-4xl font-semibold'>
             Here is a {" "} 
             <span className='underline decoration-[cyan]/50 '>little</span> 
-            &nbsp; background 
+            &nbsp;background 
             </h4>
             <p className='text-sm md:text-lg lg:text-lg text-justify'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius perferendis quia enim officiis totam, magnam odit dolores. Magni impedit perferendis eaque corporis. Voluptatem reiciendis modi voluptatibus blanditiis dolor nobis esse?
