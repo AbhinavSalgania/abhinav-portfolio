@@ -2,10 +2,11 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 type Props = {
-    directionLeft?: boolean
+    directionLeft?: boolean,
+    icon: string
 }
 
-function Skill({ directionLeft }: Props) {
+function Skill({ directionLeft, icon}: Props) {
   return (
     <div className='group relative flex cursor-pointer'>
     <motion.img
@@ -14,12 +15,10 @@ function Skill({ directionLeft }: Props) {
         opacity: 0,
     }}
     transition={{ duration: 1 }}
-    whileInView={{ x: 1, opacity: 0 }}
-    //src
-    className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32
-    filter group-hover:grayscale transition duration-300 ease-in-out'
+    whileInView={{ x: 1, opacity: 1 }}
+    src= {icon}
+    className='w-16 h-16 md:w-20 md:h-20 lg:w-20 lg:h-20 xl:w-20 xl:h-20 2xl:w-28 2xl:h-28 filter group-hover:grayscale transition duration-300 ease-in-out'
     />
-    Skill
     </div>
   )
 }
