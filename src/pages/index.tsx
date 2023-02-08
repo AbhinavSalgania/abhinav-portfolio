@@ -7,6 +7,7 @@ import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import ContactMe from '../components/ContactMe'
 import Link from 'next/link'
+import { HomeIcon } from '@heroicons/react/24/solid'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -47,15 +48,10 @@ export default function Home() {
     <Link href='#hero'>
     <footer className='sticky bottom-5 w-full cursor-pointer'>
       <div className='flex items-center justify-center'>
-        <img
-        className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
-        src="https://i.imgur.com/e2yvD6A.png" 
-        alt='' />
+      <HomeIcon className='text-[cyan] h-7 w-7 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'/>
       </div>
     </footer>
     </Link>
-
-
 
     </div>
   )
