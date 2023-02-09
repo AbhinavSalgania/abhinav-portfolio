@@ -33,7 +33,7 @@ export default function About({}: Props) {
         }}
         src = {abhinav.src}
         alt='Abhinav'
-        className=" -mb-24 md:mb-0 flex-shrink-0 w-52 h-52 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-96 xl:h-3/5"
+        className=" -mb-24 md:mb-0 flex-shrink-0 w-44 h-44 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-96 xl:h-3/5"
         />
 
         <div className='space-y-5 md:space-y-10 px-0 md:px-10'>
