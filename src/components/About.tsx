@@ -33,10 +33,10 @@ export default function About({}: Props) {
         }}
         src = {abhinav.src}
         alt='Abhinav'
-        className=" -mb-24 md:mb-0 flex-shrink-0 w-44 h-44 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-96 xl:h-3/5"
+        className=" -mb-24 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-96 xl:h-3/5"
         />
 
-        <div className='space-y-5 md:space-y-10 px-0 md:px-10'>
+        <div className='space-y-2 md:space-y-10 px-0 md:px-10'>
             <h4 className='text-2xl md:text-3xl font-semibold'>
             Here is a {" "} 
             <span className='underline decoration-[cyan]/50 '>little</span> 
