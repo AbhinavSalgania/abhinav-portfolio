@@ -36,18 +36,19 @@ export default function About({}: Props) {
         className=" -mb-24 md:mb-0 flex-shrink-0 w-52 h-52 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-96 xl:h-3/5"
         />
 
-        <div className='space-y-10 px-0 md:px-10'>
-            <h4 className='text-4xl font-semibold'>
+        <div className='space-y-5 md:space-y-10 px-0 md:px-10'>
+            <h4 className='text-2xl md:text-3xl font-semibold'>
             Here is a {" "} 
             <span className='underline decoration-[cyan]/50 '>little</span> 
             &nbsp;background 
             </h4>
-            <p className='text-sm md:text-lg lg:text-lg text-justify'>
+            <p className='text-sm md:text-base lg:text-lg text-justify'>
             Hi, I am a Computer Science undergraduate student at Memorial University of Newfoundland.
-            I am competitive and I like to challenge myself to keep improving. Through school and personal projects,
-            I have gained experience in developing responsive web applications and analysing large amounts of data.
-            I am also passionate about health and fitness and am very proud of my hard work and consistency in the gym.
-            I am currently in a co-op program and I am looking for an internship beginning in May 2023.
+            I am competitive and I am constantly seeking to improve and challenge myself. 
+            I have a passion for understanding the bigger picture, analyzing data and creating visually appealing solutions. 
+            This drives my interest in the fields of data science and web development, where I can combine my skills and utilize my creativity to bring data to life and create impactful experiences for users.
+            I am also dedicated to my health and fitness and take pride in my consistency and hard work at the gym.
+            I am currently participating in a co-op program, and I am eager to further my professional development through an internship starting in May 2023.
             </p>
         </div>
 
