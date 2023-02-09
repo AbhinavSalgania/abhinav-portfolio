@@ -43,6 +43,16 @@ export default function Hero({}: Props) {
             <Link href='#projects'>
             <button className='hereButton'>Projects</button>
             </Link>
+            <Link 
+            href="/AbhinavSalgania.pdf"
+            locale={false}
+            target="_blank"
+            rel = "noopener noreferrer"
+            >
+            <button className='hereButton'>CV</button>
+            </Link>
+
+            
         </div>
 
       </div>
