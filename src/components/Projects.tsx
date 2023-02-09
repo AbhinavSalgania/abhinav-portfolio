@@ -14,29 +14,34 @@ function Projects({}: Props) {
           title: 'Portfolio Website',
           image: portfolioImg.src,
           description: 'A dynamic portfolio website built with React and TypeScript.',
-          link: 'https://abhinav-portfolio-qjae.vercel.app/'
+          link: 'https://abhinav-portfolio-qjae.vercel.app/#projects',
+          newpage: false
         },
         {
           title: 'Weather Website',
           image: weatherImg.src,
           description: 'A weather website that displays current weather and time for any city.',
-          link: 'https://weather-f6be5.web.app/'
+          link: 'https://weather-f6be5.web.app/',
+          newpage: true
         },
         {
           title: 'Smart Tic Tac Toe',
           image: tttImg.src,
           description: 'A Tic Tac Toe game with an unbeatable AI.',
-          link: 'https://abhinavsalgania.github.io/Smart-tictactoe/'
+          link: 'https://abhinavsalgania.github.io/Smart-tictactoe/',
+          newpage: true
         },
         {
           title: 'Data Science Project',
           image: cryptoImg.src,
-          description: 'A project that uses machine learning to analyze and predict trends in a dataset.'
+          description: 'A project that uses machine learning to analyze and predict trends in a dataset.',
+          newpage: true
         },
         {
           title: 'KingDomino',
           image: netflixImg.src,
-          description: 'A digital version of the board game KingDomino.'
+          description: 'A digital version of the board game KingDomino.',
+          newpage: true
         }
     ]
 
@@ -71,11 +76,12 @@ function Projects({}: Props) {
                         <h4 className='text-lg md:text-2xl lg:text-3xl font-semibold text-center'>
                             <span className="underline decoration-[cyan]/50">
                                 Project {i + 1}:
-                            </span> {''}
-                            {project.title}
-                            {project.link ? <a href={project.link} className='text-cyan-500 hover:text-cyan-600' target="_blank" rel="noopener noreferrer"> ↗︎</a> : null}
+                                </span> {''}
+                            {
+                            project.link ? 
+                            <a href={project.link} className=' hover:text-cyan-300' target={project.newpage ? "_blank" : "_self"} rel="noopener noreferrer"> {project.title} ↗ 
+                            </a> : project.title}
                         </h4>
-
 
                         <p className='text-base md:text-md lg:text-lg text-justify'>
                             {project.description}
