@@ -5,6 +5,9 @@ import netflixImg from '../assets/netflix.jpg'
 import portfolioImg from '../assets/portfolio.jpg'
 import weatherImg from '../assets/weather.jpg'
 import tttImg from '../assets/ttt.jpg'
+import calculator from '../assets/calculator.jpg'
+import rps from '../assets/rps.jpg'
+import eas from '../assets/eas.jpg'
 
 type Props = {}
 
@@ -41,6 +44,27 @@ function Projects({}: Props) {
           title: 'KingDomino',
           image: netflixImg.src,
           description: 'A digital version of the board game KingDomino.',
+          newpage: true
+        },
+        {
+          title: 'Calculator',
+          image: calculator.src,
+          description: 'A simple calculator built with JavaScript.',
+          link: 'https://abhinavsalgania.github.io/Calculator/',
+          newpage: true
+        },
+        {
+          title: 'Rock Paper Scissors',
+          image: rps.src,
+          description: 'A simple Rock Paper Scissors game built with JavaScript.',
+          link:'https://abhinavsalgania.github.io/Rock_Paper_Scissors/',
+          newpage: true
+        },
+        {
+          title: 'Etch-a-Sketch',
+          image: eas.src,
+          description: 'A simple Etch-a-Sketch game built with JavaScript.',
+          link: 'https://abhinavsalgania.github.io/Etch_a_Sketch/',
           newpage: true
         }
     ]
