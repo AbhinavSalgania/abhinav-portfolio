@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import cryptoImg from '../assets/crypto.jpg'
-import netflixImg from '../assets/netflix.jpg'
+import kingdomino from '../assets/KingDomino.jpg'
 import portfolioImg from '../assets/portfolio.jpg'
 import weatherImg from '../assets/weather.jpg'
 import tttImg from '../assets/ttt.jpg'
@@ -42,7 +42,7 @@ function Projects({}: Props) {
         },
         {
           title: 'KingDomino',
-          image: netflixImg.src,
+          image: kingdomino.src,
           description: 'A digital version of the board game KingDomino.',
           newpage: true
         },
