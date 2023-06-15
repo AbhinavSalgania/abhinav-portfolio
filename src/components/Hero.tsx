@@ -27,7 +27,7 @@ export default function Hero({}: Props) {
         alt="abhinav"
       />
       <div className='z-20'>
-        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]' >Software Developer</h2>
+        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]' >Data Analyst</h2>
         <h1 className='text-2xl lg:text-4xl font-semibold px-10'>
             <span> {text} </span>
             <Cursor cursorColor='cyan' /> 
