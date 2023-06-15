@@ -48,7 +48,7 @@ export default function About({}: Props) {
             I have a passion for understanding the bigger picture, analyzing data and creating visually appealing solutions. 
             This drives my interest in the fields of data science and web development, where I can combine my skills and utilize my creativity to bring data to life and create impactful experiences for users.
             I am also dedicated to my health and fitness and take pride in my consistency and hard work at the gym.
-            I am currently participating in a co-op program, and I am eager to further my professional development through an internship starting in May 2023.
+            I am currently participating in a co-op program, and I am eager to further my professional development through a co-op starting in September 2023.
             </p>
         </div>
 
